@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #d4d4d4;
+}
+
+/* Estilos para el main */
+main {
+    padding: 20px 0;
+}
+
+.jumbotron {
+    background: url('../img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+
+.jumbotron h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
